@@ -3,13 +3,10 @@ var isLetter = require('is-letter');
 //require objects/exports
 var Word = require('./word.js');
 var Game = require('./wordList.js');
-//hangman graphic
+//hangman picture
 var hangManDisplay = Game.newWord.hangman;
 
-//set the maxListener
-require('events').EventEmitter.prototype._maxListeners = 100;
-
-
+/
 var hangman = {
     wordBank: Game.newWord.wordList,
     guessesRemaining: 10,
