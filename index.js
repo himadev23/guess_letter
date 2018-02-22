@@ -6,7 +6,7 @@ var Game = require('./wordList.js');
 //hangman picture
 var hangManDisplay = Game.newWord.hangman;
 
-/
+
 var hangman = {
     wordBank: Game.newWord.wordList,
     guessesRemaining: 10,
